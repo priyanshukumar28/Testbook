@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+<body>
+    <center>
+        <h1>Survey Form</h1>
+    <form action="#" method="post" style="outline: 4px solid green;">
+        <br>
+        <label for="name"><b>Name:</b></label><br><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email"><b>Email:</b></label><br><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="age"><b>Age:</b></label><br><br>
+        <input type="number" id="age" name="age" min="18" max="100" required><br><br>
+
+        <label for="gender"><b>Gender:</b></label><br><br>
+        <select name="gender" id="gender" required>
+            <option value="">Select</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select><br><br>
+
+
+        <label for="feedback"><b>Feedback:</b></label><br><br>
+        <textarea name="feedback" id="feedback" cols="50" rows="10"></textarea><br><br>
+
+
+        <input type="submit" value="Submit">
+    </center>
+    </form>
+</body>
+</html>
